@@ -13,17 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    background-image: url("/assets/bg01.gif");
+}
+
 header {
     width: 100%;
-    background: #cccccc;
+    height: 45px;
+    background: #e08e79;
     position: abusolute;
     top: 0;
+    padding: 10px 10px 0 10px;
     text-align: left;
+}
+
+#content {
+    width: 70%;
+    padding: 10px;
+    background: #f1d4af;
+    margin: 50px auto;
 }
 
 footer {
     width: 100%;
-    background: #cccccc;
+    background: #e08e79;
+    color: #774f38;
     position: abusolute;
     bottom: 0;
     text-align: right;
