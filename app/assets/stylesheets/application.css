@@ -53,6 +53,10 @@ table {
 .button {
 }
 
+strong {
+    color: #774f38;
+}
+
 footer {
     width: 100%;
     background: #e08e79;
